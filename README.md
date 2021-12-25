@@ -1,4 +1,4 @@
-Team project (HTML, CSS, SCSS, Flex) 
+Team project (HTML, SCSS, Flex) 
 
 Collaborators: https://github.com/galya-cmd, https://github.com/sqrd-max, https://github.com/Aigerim-Toktomatova-Codes, https://github.com/Olchik-lab
 
