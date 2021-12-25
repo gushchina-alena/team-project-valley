@@ -1,0 +1,128 @@
+.main{
+    -webkit-box-flex: 1;
+        -ms-flex: 1 0 auto;
+            flex: 1 0 auto;
+}
+.main h2{
+    margin: 100px 0 2% 9%;
+    font-size: 50px;
+    font-weight: 600;
+    color: $colorPrimary;
+}
+.main__nottitle11{
+    font-size: 28px;
+    color: #666666;
+    font-weight: 300;
+    line-height: 42px;
+    margin: 0 0 0 9%;
+}
+.main__foto1{
+    width: 865px;
+    margin: 2% 0 2% 9%;
+}
+.main__biography,
+.main__biography1{
+    font-style: italic;
+    width: 1050px;
+    font-size: 21px;
+    line-height: 37px;
+    margin: 1% 0 1% 9%;
+}
+.main__biography1{
+    font-style: normal;
+}
+.main__topic{
+    width: 1200px;
+    border-left: 7px solid $colorPrimary;
+    font-size: 21px;
+    line-height: 37px;
+    font-weight: 400;
+    margin: 2% 0 2% 9%;
+    font-style: italic;
+    padding-left: 2%; 
+}
+.main__title2{
+    margin: 0 0 2% 9%;
+    font-size: 28px;
+    color: $colorPrimary;
+    font-weight: 500;
+}
+@media all and (max-width: 1151px){
+    .main__biography,
+    .main__biography1{
+            width: 900px;
+        }
+    .main__topic{
+        width: 1000px;
+    }
+}
+@media all and (max-width: 939px){
+    .main__biography,
+    .main__biography1{
+            width: 700px;
+        }
+    .main__topic{
+        width: 800px;
+    }
+    .main__foto1{
+        width: 765px;
+    } 
+}
+@media all and (max-width: 769px){
+    .main__biography,
+    .main__biography1{
+            width: 500px;
+        }
+    .main__topic{
+        width: 600px;
+    }
+    .main__foto1{
+        width: 565px;
+    }
+    
+}
+@media all and (max-width: 550px){
+    .main__biography,
+    .main__biography1{
+            width: 300px;
+        }
+    .main__topic{
+        width: 400px;
+    }
+    .main__foto1{
+        width: 365px;
+    }
+    
+}
+@media all and (max-width: 450px){
+    .main__biography,
+    .main__biography1{
+            font-size: 15px;
+        }
+    .main__topic{
+        width: 300px;
+    }
+    .main__foto1{
+        width: 265px;
+    }
+    .main h2{
+        font-size: 30px;
+    }
+    .main__nottitle11{
+        font-size: 20px;
+        line-height: 30px;
+    }
+    
+}
+@media all and (max-width: 320px){
+    .main__biography,
+    .main__biography1{
+        width: 280px;
+        line-height: 30px;
+    }
+    .main__topic{
+        font-size: 18px;
+        width: 280px;
+    }
+}
+

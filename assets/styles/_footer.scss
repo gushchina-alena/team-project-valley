@@ -1,0 +1,120 @@
+footer {
+    flex-shrink: 0;
+}
+
+form, 
+.footer__flex {
+    margin-left: 19%;
+    margin-right: 19%;
+}
+
+footer h2,
+footer h3 {
+    color: $colorDark;
+}
+
+.form__title {
+    color: $colorSecondary;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 500;
+    margin-bottom: 1em;
+}
+
+.form__container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-top: 2rem;
+}
+
+.form__container input {
+    font-size: 0.875em;
+    border: 1px solid $colorSecondary;
+    background-color: #fff;
+    width: 220px;
+    height: 50px;
+    margin: 0 0 10px 0;
+    color: #8D8D8D;
+    padding: 5px 0 5px 20px;
+}
+
+.form__btn {
+    width: 220px;
+    height: 50px;
+    background-color: $colorPrimary; 
+    color: $colorSecondary;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 3px;
+    border: 1px solid $colorSecondary;
+    text-align: center;
+    border-radius: 0%;
+    margin-bottom: 25px;
+}
+
+.footer__flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.footer__contact p {
+    width: 85%;
+}
+
+.footer__contact h3,
+.footer__links h3 {
+    font-size: 30px;
+}
+
+.footer__links {
+    margin-right: 13px;
+}
+
+.footer__links a {
+    display: inline-block;
+    margin-left: 50px;
+    margin-top: 10px;
+}
+
+.footer__contact p:first-of-type {
+    margin-top: 10px;
+}
+
+.footer__copyright {
+    text-align: center;
+    padding-top: 5px;
+    border-top: 1px solid #C8C8C8;
+}
+
+@media all and (max-width: 734px) {
+
+    .footer__flex {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    form, 
+.footer__flex {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+footer h2,
+footer h3 {
+    text-align: center;
+}
+
+.footer__contact p {
+    margin-left: 30px;
+    margin-bottom: 30px;
+}
+
+.form__container {
+    padding-left: 40px;
+}
+}

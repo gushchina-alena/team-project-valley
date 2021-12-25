@@ -1,0 +1,154 @@
+.container-fluid {
+    margin-top: 3em;
+}
+
+.mission,
+.values,
+.vision {
+    font-size: 1.2rem;
+}
+
+.mission {
+    position: relative;
+    text-align: center;
+    line-height: 2em;
+    margin-right: 1rem;
+    align-self: center;
+    padding-top: 6rem;
+}
+
+.heading1 {
+    font-size: 40px;
+    color: $colorSecondary;
+    line-height: 2em;
+}
+
+.values {
+    position: relative;
+    text-align: center;
+    line-height: 2em;
+    margin-left: 1rem;
+    padding-top: 9rem;
+}
+
+.heading2 {
+    font-size: 40px;
+    color: $colorSecondary;
+    line-height: 2em;
+}
+
+.vision {
+    position: relative;
+    text-align: center;
+    line-height: 2em;
+    margin-right: 1rem;
+    padding-top: 6rem;
+}
+
+.heading3 {
+    font-size: 40px;
+    color: $colorSecondary;
+    line-height: 2em;
+}
+
+.rowrev {
+    flex-direction: row-reverse;
+}
+
+@media all and (max-width: 1200px) {
+    .mission {
+        padding-top: 4rem;
+    }
+
+    .values {
+        padding-top: 6rem;
+    }
+    
+    .vision {
+        padding-top: 2rem;
+    }
+}
+
+@media all and (max-width: 1330px) {
+    .mission {
+        padding-top: 4rem;
+    }
+
+    .values {
+        padding-top: 6rem;
+    }
+    
+    .vision {
+        padding-top: 2rem;
+    }
+}
+
+@media all and (max-width: 1330px) {
+    .mission {
+        padding-top: 2rem;
+    }
+
+    .values {
+        padding-top: 5rem;
+    }
+    
+    .vision {
+        padding-top: 0;
+    }
+
+    .mission,
+    .values,
+    .vision {
+    font-size: 1.1rem;
+}
+}
+
+@media all and (max-width: 1110px) {
+    .mission {
+        padding-top: 2rem;
+    }
+
+    .values {
+        padding-top: 5rem;
+    }
+
+    .heading1,
+    .heading2,
+    .heading3 {
+        font-size: 33px;
+        line-height: 1.5em;
+    }
+}
+
+@media all and (max-width: 930px) {
+    .mission {
+        padding-top: 0;
+    }
+
+    .values {
+        padding-top: 0;
+    }
+
+    .heading1,
+    .heading2,
+    .heading3 {
+        font-size: 28px;
+    }
+}
+
+@media all and (max-width: 770px) {
+    .heading1,
+    .heading2,
+    .heading3 {
+        font-size: 40px;
+        line-height: 2em;
+    }
+
+    .values {
+        padding-top: 3em;
+    }
+    
+    .vision {
+        padding-top: 3em;
+    }
+}
