@@ -1,4 +1,4 @@
-Team project (HTML, SCSS, Flexbox) 
+Tech stack: HTML, SCSS, Flexbox
 
 Collaborators: https://github.com/galya-cmd, https://github.com/sqrd-max, https://github.com/Aigerim-Toktomatova-Codes, https://github.com/Olchik-lab
 
